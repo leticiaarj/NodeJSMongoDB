@@ -1,0 +1,17 @@
+{
+  "name": "6_externalmodule",
+  "version": "1.0.0",
+  "description": "npm studies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "studies"
+  ],
+  "author": "Leticia Karla Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}

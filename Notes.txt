@@ -1,0 +1,19 @@
+* Módulos
+  - São scripts reaproveitáveis.
+  - Categorias:
+    > Internos: Módulos que nós desenvolvemos.
+      - Precisamos exportar.
+      - Importar onde preisamos usar.
+      - Para importar usamos o "require".
+    > Core Modules: Módulos que vêm com o Node.js.
+      - Resolvem problemas como: Trabalhar com arquivos e diretórios, servir aplicações etc.
+      - Precisamos importar esses módulos no projeto para utilizar.
+    > Externos: Módulos que instalamos via npm. 
+      - Precisamos inicilizar via npm init.
+      - São salvos na pasta node_modules.
+      - Instalamos com o comando npm install <nome_pacote>
+  - É possível utilizar o export e o import do ES6. Utilizando para isso a extensão .mjs.
+
+* Argumentos
+  - Podemos utilizar para encapsular em variáveis. 
+  - Exectutar uma função de módulo interno.
