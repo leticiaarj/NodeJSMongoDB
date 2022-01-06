@@ -1,9 +1,8 @@
 const minimist = require("minimist");
+const args = minimist(process.argv.slice(2)); //externo
+const sum = require('./sum').sum
 
-const args = minimist(process.argv.slice(2));
-console.log(args);
+const a = parseInt(args['a']);
+const b = parseInt(args['b']);
 
-const name = args['name'];
-const age = args['age'];
-console.log(name, age);
-console.log(`My name is ${name} and I have ${age} years old!`)
+sum(a, b);
