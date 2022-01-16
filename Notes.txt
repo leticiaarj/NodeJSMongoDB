@@ -12,6 +12,7 @@
       - path: Extrair informações de arquivos.
       - fs: File System, para leitura e escrita de arquivos.
       - url: para trabalhar com urls.
+      - Módulo OS: Extração de Informações do Sistema Operacional.
     > Externos: Módulos que instalamos via npm. 
       - Precisamos inicilizar via npm init.
       - São salvos na pasta node_modules.
@@ -21,3 +22,9 @@
 * Argumentos
   - Podemos utilizar para encapsular em variáveis. 
   - Exectutar uma função de módulo interno.
+
+* NPM (Node Package Manager)
+  - Yarn também é bem conhecido e fazem a mesma coisa.
+  - Gerenciador de pacotes do Node.js.
+  - Instala, configura e roda scripts.
+  - A criação de um projeto gera SEMPRE um arquivo package.json. 
