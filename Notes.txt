@@ -8,6 +8,10 @@
     > Core Modules: Módulos que vêm com o Node.js.
       - Resolvem problemas como: Trabalhar com arquivos e diretórios, servir aplicações etc.
       - Precisamos importar esses módulos no projeto para utilizar.
+      - Http: Servidores HTTP.
+      - path: Extrair informações de arquivos.
+      - fs: File System, para leitura e escrita de arquivos.
+      - url: para trabalhar com urls.
     > Externos: Módulos que instalamos via npm. 
       - Precisamos inicilizar via npm init.
       - São salvos na pasta node_modules.
